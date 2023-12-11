@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-series1-demo"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=False;Data Source=SRIKANTH;Initial Catalog=AdventureWorks2022;User ID=srik"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://dlseries1build1.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kv1-series1-build1.vault.azure.net/"
+		}
+	}
+}
