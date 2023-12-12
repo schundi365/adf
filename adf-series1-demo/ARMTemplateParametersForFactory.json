@@ -8,14 +8,20 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
 		"SqlServer1_connectionString": {
-			"value": "Integrated Security=False;Data Source=SRIKANTH;Initial Catalog=AdventureWorks2022;User ID=srik"
+			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://dlseries1build1.dfs.core.windows.net/"
 		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
-			"value": "https://kv1-series1-build1.vault.azure.net/"
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1211-111458-pj8pvmwb"
 		}
 	}
 }
