@@ -5,15 +5,8 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "Integrated Security=False;Data Source=SRIKANTH;Initial Catalog=AdventureWorks2022;User ID=srik",
-			"password": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "password"
-			}
+			"connectionString": "integrated security=False;data source=SRIKANTH;initial catalog=AdventureWorks2022;user id=srik",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMzg0NmRlNi01NGNhLTRkYjYtYjIzMy01OWE3YTgyY2Y2NjgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SelfHostedRuntime",
