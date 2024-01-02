@@ -1,7 +1,0 @@
-{
-	"name": "SelfHostedRuntime",
-	"properties": {
-		"type": "SelfHosted",
-		"description": "Used to connect to SQL Server Database"
-	}
-}
